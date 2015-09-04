@@ -1,0 +1,144 @@
+.html {
+}
+
+.grid {
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%; 
+  border: 0px solid;
+}
+
+.header {
+  background-image: url('/images/plasticpickup.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+}
+
+.motto {
+  font-family: 'crayoncrumble';
+  color: black;
+  text-align: center;
+  font-weight: 300;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.count {
+  font-family: 'crayoncrumble';
+  color: black;
+  text-align: center;
+  font-weight: 300;
+  font-size: 60px;
+  margin-top: 25px;
+}
+
+
+.greentext {
+  color: #00a651;
+}
+
+
+.input1 {
+  width: 850px;
+  height: 100px;
+  margin: 50px auto 0px auto;
+}
+
+.input2 {
+  width: 850px;
+  height: 100px;
+  margin: 0 auto;
+
+}
+
+.input3 {
+  width: 450px;
+  margin: 0 auto;
+}
+
+
+.emaillabel {
+  font-family: 'crayoncrumble';
+  font-size: 30px;
+  color: #278bc9;
+}
+
+.addresslabel {
+  font-family: 'crayoncrumble';
+  font-size: 30px;
+  color: #278bc9;
+
+}
+
+.inputs {
+  
+  font-family: 'crayoncrumble';
+  font-size: 30px;
+  border-radius: 30px;
+  border-color: #6c6c6c;
+  border: 1px solid;
+  outline: none;
+  padding: 5px;
+  padding-left: 10px;
+  /*width: 500px;*/
+  float: right;
+  
+}
+
+.submitbutton {
+  background-image: url('/images/submit-button.png');
+  background-color: inherit;
+  background-repeat: no-repeat;
+  border: 0px;
+  width: 450px;
+  height: 151px;
+  outline: none;
+}
+
+.submitbutton:hover {
+  background-image: url('/images/submit-buttonhover.png');
+}
+
+
+.mapdirections {
+  font-family: 'crayoncrumble';
+  color: black;
+  text-align: center;
+  font-weight: 300;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.maps {
+  background: url('/images/annarbor.jpg') no-repeat center;
+  background-size: contain;
+  height:950px;
+  width: 950px;
+
+  margin: 20px auto;
+
+}
+
+.confirmation {
+  font-family: 'crayoncrumble';
+  color: black;
+  text-align: center;
+  font-weight: 300;
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+
+@font-face {
+  font-family: 'proximanova';
+  font-weight: 200;
+  src: url('/css/fonts/proximanova/proximanova-light.otf') format('opentype');}
+
+
+
+@font-face {
+  font-family: 'crayoncrumble';
+  font-weight: 300;
+  src: url('/css/fonts/crayoncrumble/crayoncrumble.ttf') format('truetype');}
+
